@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#10191b" />
+    <meta name="description" content="An engineering portfolio template for clear, evidence-led project case studies." />
+    <title>Engineering Portfolio — [Your Name]</title>
+    <link rel="icon" href="./mark.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./site.css" />
+    <script src="./site.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="header-inner wrap">
+        <a class="brand" href="#top" aria-label="Engineering portfolio home">
+          <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+          <span class="brand-name">[Your Name]<small>ENGINEERING PORTFOLIO</small></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation">
+          <span></span><span></span>
+        </button>
+        <nav class="nav" id="primary-nav" aria-label="Primary navigation">
+          <a href="#work">Selected work</a>
+          <a href="#approach">Approach</a>
+          <a href="#about">About</a>
+          <a class="nav-contact" href="#contact">Get in touch</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-grid wrap">
+          <div class="hero-copy">
+            <p class="eyebrow"><span class="eyebrow-line"></span> ENGINEER · [DISCIPLINE / SPECIALTY]</p>
+            <h1 id="hero-title">Built with purpose.<br /><span>Explained with clarity.</span></h1>
+            <p class="hero-intro">A portfolio of engineering projects, decisions, and results. Replace the prompts with your own work and give each case study a clear story.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#work">Explore the work</a>
+              <a class="text-link" href="#about">A little about me</a>
+            </div>
+            <div class="hero-meta">
+              <span>BASED IN <b>[CITY, REGION]</b></span>
+              <span>OPEN TO <b>[OPPORTUNITIES / COLLABORATION]</b></span>
+            </div>
+          </div>
+
+          <div class="hero-art" aria-label="Engineering drawing placeholder, replace with a project image">
+            <div class="art-topline"><span>FIELD NOTES / 01</span><span>ENGINEERING PORTFOLIO</span></div>
+            <div class="drawing-wrap">
+              <svg class="drawing" viewBox="0 0 560 470" role="img" aria-labelledby="drawing-title drawing-description">
+                <title id="drawing-title">An abstract engineering design study</title>
+                <desc id="drawing-description">A blueprint-style arrangement of a circular component, dimension lines, and a technical grid.</desc>
+                <defs>
+                  <pattern id="minor-grid" width="18" height="18" patternUnits="userSpaceOnUse">
+                    <path d="M 18 0 L 0 0 0 18" fill="none" stroke="#8ea19a" stroke-opacity=".13" stroke-width=".7" />
+                  </pattern>
+                  <pattern id="major-grid" width="90" height="90" patternUnits="userSpaceOnUse">
+                    <rect width="90" height="90" fill="url(#minor-grid)" />
+                    <path d="M 90 0 L 0 0 0 90" fill="none" stroke="#8ea19a" stroke-opacity=".22" stroke-width="1" />
+                  </pattern>
+                  <linearGradient id="part-fill" x1="0" x2="1" y1="0" y2="1">
+                    <stop offset="0" stop-color="#d4efc8" stop-opacity=".2" />
+                    <stop offset="1" stop-color="#d4efc8" stop-opacity=".02" />
+                  </linearGradient>
+                </defs>
+                <rect width="560" height="470" fill="url(#major-grid)" />
+                <g class="part" transform="translate(280 226)">
+                  <circle r="137" fill="url(#part-fill)" stroke="#d4efc8" stroke-opacity=".8" stroke-width="1.4" />
+                  <circle r="107" fill="none" stroke="#d4efc8" stroke-opacity=".52" stroke-width="1" />
+                  <circle r="74" fill="none" stroke="#d4efc8" stroke-opacity=".44" stroke-dasharray="4 7" stroke-width="1" />
+                  <circle r="29" fill="none" stroke="#d4efc8" stroke-opacity=".9" stroke-width="1.4" />
+                  <path d="M-137 0H-29M29 0H137M0-137V-29M0 29V137" stroke="#d4efc8" stroke-opacity=".7" stroke-width="1" />
+                  <path d="M-97-97L-21-21M97-97L21-21M-97 97L-21 21M97 97L21 21" stroke="#d4efc8" stroke-opacity=".3" stroke-width="1" />
+                  <circle cx="0" cy="-121" r="5" fill="#d4efc8" />
+                  <circle cx="121" cy="0" r="5" fill="#d4efc8" />
+                  <circle cx="0" cy="121" r="5" fill="#d4efc8" />
+                  <circle cx="-121" cy="0" r="5" fill="#d4efc8" />
+                  <path d="M-10-10L10 10M10-10L-10 10" stroke="#d4efc8" stroke-opacity=".7" />
+                </g>
+                <g fill="none" stroke="#d4efc8" stroke-opacity=".78" stroke-width="1">
+                  <path d="M126 56V89M434 56V89M126 72H434" />
+                  <path d="M123 72l8-4v8zM437 72l-8-4v8z" fill="#d4efc8" stroke="none" />
+                  <path d="M93 91h31M93 360h31M108 91v269" />
+                  <path d="M105 94l3-8 3 8zM105 357l3 8 3-8z" fill="#d4efc8" stroke="none" />
+                  <path d="M405 325l72 37M410 317l25-42" stroke-dasharray="3 5" />
+                </g>
+                <g fill="#d4efc8" font-family="ui-monospace, monospace" font-size="10" letter-spacing="1.5">
+                  <text x="254" y="63">Ø 240.0</text>
+                  <text x="72" y="232" transform="rotate(-90 72 232)">162.0 REF</text>
+                  <text x="437" y="272">DATUM A</text>
+                  <text x="441" y="381">SECTION 01</text>
+                </g>
+                <g fill="#ed8b57">
+                  <circle cx="454" cy="272" r="3" />
+                  <circle cx="420" cy="319" r="3" />
+                </g>
+              </svg>
+              <div class="art-callout"><span class="callout-marker"></span><span>VISUAL STUDY<br /><b>REPLACE WITH YOUR PROJECT</b></span></div>
+            </div>
+            <div class="art-bottomline"><span>DESIGN / ANALYSIS / TEST</span><span>FIG. A — SAMPLE GRAPHIC</span></div>
+          </div>
+        </div>
+        <div class="hero-rule wrap"><span>ENGINEERING, MADE LEGIBLE</span><span>SCROLL TO EXPLORE</span></div>
+      </section>
+
+      <section class="work-section section-pad" id="work" aria-labelledby="work-title">
+        <div class="wrap">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow eyebrow-dark"><span class="eyebrow-line"></span> SELECTED WORK / CASE STUDIES</p>
+              <h2 id="work-title">Show the thinking<br />behind the <em>thing.</em></h2>
+            </div>
+            <p class="section-note">Use each project to explain the challenge, your contribution, the tradeoffs, and how you know it worked.</p>
+          </div>
+
+          <div class="filter-row" role="group" aria-label="Filter projects by focus">
+            <span class="filter-label">VIEW BY</span>
+            <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All projects</button>
+            <button class="filter-button" type="button" data-filter="design" aria-pressed="false">Design</button>
+            <button class="filter-button" type="button" data-filter="build" aria-pressed="false">Build &amp; test</button>
+            <button class="filter-button" type="button" data-filter="analysis" aria-pressed="false">Analysis</button>
+            <span class="filter-status" aria-live="polite">3 project prompts</span>
+          </div>
+
+          <div class="project-grid" id="project-grid">
+            <article class="project-card" data-category="design">
+              <div class="project-visual visual-blueprint" aria-hidden="true">
+                <span class="visual-index">01 / CONCEPT</span>
+                <svg viewBox="0 0 420 250">
+                  <g fill="none" stroke="currentColor">
+                    <path class="thin" d="M46 34H374M46 218H374M72 25V226M348 25V226" />
+                    <path class="part-line" d="M126 75h98l28 27v45l-28 27h-98l-28-27v-45z" />
+                    <circle class="part-line" cx="175" cy="124" r="29" />
+                    <circle class="dashed" cx="175" cy="124" r="50" />
+                    <path class="thin" d="M175 54v140M98 124h154M265 102h53m-53 44h53M318 96v56" />
+                    <path class="accent-line" d="M247 72l44-30h70M251 178l40 31h70" />
+                    <circle class="accent-dot" cx="291" cy="42" r="3" />
+                    <circle class="accent-dot" cx="291" cy="209" r="3" />
+                  </g>
+                </svg>
+                <span class="visual-caption">DESIGN STUDY / PLACEHOLDER</span>
+              </div>
+              <div class="project-content">
+                <div class="project-top"><span>PROJECT 01</span><span>DESIGN</span></div>
+                <h3>[Add project title]</h3>
+                <p>Describe the system or component, the need it addressed, and the constraint that shaped the design.</p>
+                <div class="project-prompts"><span>CHALLENGE <b>[What needed solving?]</b></span><span>YOUR ROLE <b>[What did you own?]</b></span></div>
+                <div class="tag-row"><span>[Discipline]</span><span>[Year]</span><span>[Tool / method]</span></div>
+              </div>
+            </article>
+
+            <article class="project-card" data-category="build">
+              <div class="project-visual visual-test" aria-hidden="true">
+                <span class="visual-index">02 / PROTOTYPE</span>
+                <svg viewBox="0 0 420 250">
+                  <g fill="none" stroke="currentColor">
+                    <path class="thin" d="M54 196H373M72 31V207" />
+                    <path class="graph-grid" d="M72 71H373M72 111H373M72 151H373M132 31V196M192 31V196M252 31V196M312 31V196" />
+                    <path class="curve" d="M76 180C115 178 123 154 151 150S196 167 219 127s40-69 72-58 34 72 77 31" />
+                    <path class="curve-secondary" d="M76 163C119 161 135 141 158 142s34 36 61 30 38-50 68-38 35 31 81 8" />
+                    <circle class="accent-dot" cx="291" cy="69" r="5" />
+                    <path class="accent-line" d="M291 69v-28h40" />
+                    <path class="thin" d="M85 217h260" />
+                  </g>
+                  <g class="chart-label"><text x="55" y="23">RESPONSE</text><text x="331" y="230">TIME</text><text x="299" y="36">MEASURED</text></g>
+                </svg>
+                <span class="visual-caption">TEST DATA / PLACEHOLDER</span>
+              </div>
+              <div class="project-content">
+                <div class="project-top"><span>PROJECT 02</span><span>BUILD &amp; TEST</span></div>
+                <h3>[Add project title]</h3>
+                <p>Show how you moved from a first build to a tested iteration, and what the evidence taught you.</p>
+                <div class="project-prompts"><span>APPROACH <b>[How did you test it?]</b></span><span>RESULT <b>[What changed?]</b></span></div>
+                <div class="tag-row"><span>[Discipline]</span><span>[Year]</span><span>[Tool / method]</span></div>
+              </div>
+            </article>
+
+            <article class="project-card" data-category="analysis">
+              <div class="project-visual visual-model" aria-hidden="true">
+                <span class="visual-index">03 / MODEL</span>
+                <svg viewBox="0 0 420 250">
+                  <g fill="none" stroke="currentColor">
+                    <path class="thin" d="M54 198H370M73 31V199" />
+                    <path class="graph-grid" d="M73 70H370M73 111H370M73 152H370M132 31V198M191 31V198M250 31V198M309 31V198" />
+                    <path class="model-line" d="M80 178L133 158L188 151L244 105L298 87L359 50" />
+                    <path class="model-fill" d="M80 178L133 158L188 151L244 105L298 87L359 50V198H80z" />
+                    <path class="comparison-line" d="M80 186L133 169L188 148L244 129L298 92L359 68" />
+                    <circle class="model-point" cx="244" cy="105" r="5" />
+                    <circle class="model-point" cx="359" cy="50" r="5" />
+                    <path class="accent-line" d="M244 105V198M359 50V198" stroke-dasharray="3 5" />
+                  </g>
+                  <g class="chart-label"><text x="52" y="23">OUTPUT</text><text x="329" y="230">INPUT</text><text x="260" y="93">[KEY POINT]</text></g>
+                </svg>
+                <span class="visual-caption">MODEL OUTPUT / PLACEHOLDER</span>
+              </div>
+              <div class="project-content">
+                <div class="project-top"><span>PROJECT 03</span><span>ANALYSIS</span></div>
+                <h3>[Add project title]</h3>
+                <p>Make an analysis legible: state the question, the model or method, and the decision it supported.</p>
+                <div class="project-prompts"><span>QUESTION <b>[What did you need to learn?]</b></span><span>EVIDENCE <b>[What did the data show?]</b></span></div>
+                <div class="tag-row"><span>[Discipline]</span><span>[Year]</span><span>[Tool / method]</span></div>
+              </div>
+            </article>
+          </div>
+          <p class="template-note"><span class="note-mark">i</span> These are writing prompts and sample graphics. Replace them with your own project details, images, and evidence before sharing.</p>
+        </div>
+      </section>
+
+      <section class="approach-section section-pad" id="approach" aria-labelledby="approach-title">
+        <div class="wrap approach-layout">
+          <div class="approach-intro">
+            <p class="eyebrow"><span class="eyebrow-line"></span> A PRACTICAL PROCESS</p>
+            <h2 id="approach-title">Good work leaves<br />a <em>clear trail.</em></h2>
+            <p>Give visitors enough context to understand how you think. A concise case study can move from the question to a decision, then to the evidence.</p>
+          </div>
+          <ol class="process-list">
+            <li><span class="process-num">01</span><div><h3>Frame the problem</h3><p>Set the scene. What was the need, who was it for, and what constraints mattered?</p></div><span class="process-word">DEFINE</span></li>
+            <li><span class="process-num">02</span><div><h3>Make the tradeoffs visible</h3><p>Show the options you considered and why you chose the path you took.</p></div><span class="process-word">DECIDE</span></li>
+            <li><span class="process-num">03</span><div><h3>Build, measure, refine</h3><p>Use a photo, plot, model, or test note to make the technical work tangible.</p></div><span class="process-word">VALIDATE</span></li>
+            <li><span class="process-num">04</span><div><h3>Close with the result</h3><p>State what changed, what you learned, and what you would do next.</p></div><span class="process-word">REFLECT</span></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="about-section section-pad" id="about" aria-labelledby="about-title">
+        <div class="wrap about-layout">
+          <div class="about-stamp" aria-hidden="true"><span>ENGINEERING<br />PORTFOLIO</span><b>[NAME]</b><i>EST. [YEAR]</i></div>
+          <div class="about-copy">
+            <p class="eyebrow eyebrow-dark"><span class="eyebrow-line"></span> A LITTLE CONTEXT</p>
+            <h2 id="about-title">About <em>the engineer.</em></h2>
+            <p class="about-prompt">[Write a short introduction: what you work on, what kind of problems you enjoy, and how you like to collaborate.]</p>
+            <div class="about-details">
+              <div><span>FOCUS AREAS</span><b>[Specialty] &nbsp;·&nbsp; [Specialty] &nbsp;·&nbsp; [Specialty]</b></div>
+              <div><span>TOOLS &amp; METHODS</span><b>[CAD] &nbsp;·&nbsp; [Analysis] &nbsp;·&nbsp; [Build / test]</b></div>
+              <div><span>EDUCATION / CREDENTIALS</span><b>[Add what is relevant]</b></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="wrap contact-inner">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line"></span> NEXT STEP</p>
+            <h2 id="contact-title">Have a good problem<br />to work on?</h2>
+          </div>
+          <div class="contact-action">
+            <p>Replace this address with your preferred way to connect.</p>
+            <a class="contact-email" href="mailto:you@example.com?subject=Engineering%20portfolio">you@example.com</a>
+            <span class="contact-label">[LINKEDIN / GITHUB / OTHER PROFILE]</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner"><span>© <span id="current-year">2026</span> [YOUR NAME]</span><span>DESIGNED TO MAKE THE WORK SPEAK</span><a href="#top">Back to top</a></div>
+    </footer>
+  </body>
+</html>
